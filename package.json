@@ -1,0 +1,23 @@
+{
+  "name": "moment-ranges",
+  "version": "1.0.0",
+  "description": "Experimenting with moment ranges",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moment",
+    "range",
+    "time",
+    "date"
+  ],
+  "author": "Daniel Rosensweig",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3"
+  }
+}
