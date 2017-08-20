@@ -117,8 +117,8 @@ console.log("range2: " + range2.toString());
 console.log("range3: " + range3.toString());
 console.log("range4: " + range4.toString());
 console.log("range5: " + range5.toString());
-console.log("range5: " + range6.toString());
-console.log("range5: " + range7.toString());
+console.log("range6: " + range6.toString());
+console.log("range7: " + range7.toString());
 
 //overlapping ranges. option to include adjacent
 console.log("range2 overlaps range5: " + range2.overlaps(range5, {adjacent:true}));
