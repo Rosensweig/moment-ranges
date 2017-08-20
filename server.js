@@ -6,13 +6,6 @@ const Moment = require('moment');
 const MomentRange = require('moment-range');
 const moment = MomentRange.extendMoment(Moment);
 
-/*
-moment.prototype.fname = function() {
-	// function logic here
-}
-*/
-
-
 
 // modified addition for two ranges
 // unlike built-in function, this adds adjacent ranges as well as overlapping ones
@@ -64,6 +57,8 @@ function subtractArrays(arr1, arr2) {
     return subtracted;
 }
 
+// subtracts array of moment-ranges from a single moment-range
+// returns array of moment-ranges
 function subtractArrFromSingle(single, array) {
     var subtracted = [];
     for (var i = 0; i < array.length; i++) {
