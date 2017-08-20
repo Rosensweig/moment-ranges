@@ -57,13 +57,9 @@ function addArray(ranges) {
 function subtractArrays(arr1, arr2) {
     var condensed1 = addArray(arr1);
     var condensed2 = addArray(arr2);
-    return subtractCondensedArrays(condensed1, condensed2);
-}
-
-function subtractCondensedArrays(arr1, arr2) {
-    var subtracted = []
-    for (var i = 0; i < arr1.length; i++) {
-        subtracted = subtracted.concat(subtractArrFromSingle(arr1[i], arr2));
+    var subtracted = [];
+    for (var i = 0; i < condensed1.length; i++) {
+        subtracted = subtracted.concat(subtractArrFromSingle(condensed1[i], condensed2));
     }
     return subtracted;
 }
